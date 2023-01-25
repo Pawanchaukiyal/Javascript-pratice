@@ -43,9 +43,29 @@ console.log("Department of " + x + "is : " + depart[x]);
 
 */
 
+
+/*
 // 3 For of loop
 let text="JavaScript";
 for (let x of text)
 {
     console.log(x +" ");
 }
+
+*/
+
+/*
+// While loop in java
+let a = 2;
+while(a < 10)
+{
+    console.log(a);
+    a++;
+}
+*/
+// do-while loop
+// let b = 2;
+// do{
+//     b=b+1;
+// }
+// while(b < 50);
