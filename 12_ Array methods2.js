@@ -65,10 +65,10 @@ function compare(a,b)
 }
 console.log(n); // o/p : [4, 6, 23, 45, 87]
 
-const n1 = [45, 23, 87, 4, 6];
-n1.sort(compare1);
+const n11 = [45, 23, 87, 4, 6];
+n11.sort(compare1);
 function compare1(a,b) 
 {
     return b-a; // descending no
 }
-console.log(n1); // o/p: [87, 45, 23, 6, 4]
+console.log(n11); // o/p: [87, 45, 23, 6, 4]
