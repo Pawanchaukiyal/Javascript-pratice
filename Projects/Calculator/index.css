@@ -4,54 +4,78 @@ body{
 }
 .container
 {
-    display: inline-block;
+    /* 1 */
     border: 2px solid black;
-    border-radius: 2rem;
-    width: 35vw;
-    height: 90vh;
+    box-shadow: 10px 10px 30px 0px rgb(0 0 0 / 75%);
     background-color: rgb(197, 175, 175);
-    position: relative;
-    left: 121px;
-    top: 25px;
+    border-radius: 2rem;
+    position: absolute;
+    top: 47%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 415px;
+    height: 642px
+
 }
 
 .textarea
 {
-    /* display: inline; */
     border: 2px solid black;
     background-color: #a08f8f;
     border-radius: 1rem;
-    margin-top: 58px;
+    margin-top: 20px;
     margin-left: 1.5vw;
-    width: 32vw;
-    height: 10vh
+    position: absolute;
+    left: 5px;
+    width: 44vw;
+    height: 11vh;
   
 }
 
-.buttonarea{
-    display: inline-block; 
-    border: 2px solid black;
-    border-radius: 2rem;
-    width: 31vw;
-    height: 62vh;
-    background-color: rgb(119, 89, 89);
+#display
+{
     position: relative;
+    top: -31px;
+    width: 93%;
+    height: 47px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: bold;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    opacity: 0.5;
+}
+
+.buttonarea{
+    
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 45vw;
+    height: 74vh;
+    background-color: rgb(119, 89, 89);
+    position: inherit;
     /* left: 121px; */
-    top: 98px;
+    top: 88px;
 }
 .btnOuter{
-margin: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
 }
 .btn {
     background-color: rgba(67, 61, 65, 0.27);
     border: 3px solid black;
     border-radius: 0.5rem;
-    position: inherit;
+    position: ;
     color: white;
-    padding: 7px 11px;
+    padding: 7px 23px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 18px;
     margin: 4px 1px;
     cursor: pointer;
