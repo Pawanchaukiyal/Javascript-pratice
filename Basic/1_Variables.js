@@ -6,7 +6,7 @@ console.log("This is just for variables in javascript ");
 console.log("Used in 1995-2015");
 // a is a identifier, 24 is a literal 
 var a = 24;
-console.log(a);
+console.log(a); // o/p: 24
  // inside the block
  {
     var a = 63;
