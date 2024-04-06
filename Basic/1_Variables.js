@@ -14,6 +14,12 @@ console.log(a); // o/p: 24
  }
  console.log(a);  // o/p: 63
  // Conclusion: var is globally scoped.
+// outside the block
+ var a= 96;
+{
+    console.log(a);
+}
+
 // now a value is 63
  var a=54;
  console.log(a);  // o/p: 54
@@ -66,7 +72,7 @@ console.log(b);  // o/p: 12
 // console.log(b); // o/p: Pawan 
 
 // let b="Pawan"
-// console.log(b); // error
+// console.log(b); // error: cannot access before it initilization
 
 */
 
@@ -132,3 +138,6 @@ q="Pawan"
 console.log(q);
 
 */
+
+
+

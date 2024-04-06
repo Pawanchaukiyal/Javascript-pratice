@@ -73,4 +73,19 @@ console.log("And Object is a non prmitive datatype ");
 //   console.log(typeof items.Name); // string 
 //   console.log(typeof items.Price); // number
 
+
+
+// symbol change the inner value
+const id=Symbol("123");
+
+const anotherid = Symbol("123");
+
+console.log(id===anotherid); // false
+
+// equal to and 3equal to
+let a=1,b="1"
+console.log(a==b) // true -- dont checkk their datatypes
+console.log(a===b) // false -- but it strictly check the datatypes
+
+
 */
